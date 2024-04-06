@@ -1,0 +1,22 @@
+{
+  "quasi_dists": [
+    {
+      "100": 0.136,
+      "101": 0.117,
+      "110": 0.15,
+      "111": 0.114,
+      "000": 0.147,
+      "001": 0.116,
+      "010": 0.11,
+      "011": 0.11
+    }
+  ],
+  "metadata": [
+    {
+      "shots": 1000,
+      "circuit_metadata": {},
+      "readout_mitigation_overhead": 1,
+      "readout_mitigation_time": 0.0036207810044288635
+    }
+  ]
+}

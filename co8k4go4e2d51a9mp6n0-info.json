@@ -1,0 +1,33 @@
+{
+  "id": "co8k4go4e2d51a9mp6n0",
+  "hub": "ibm-q",
+  "group": "open",
+  "project": "main",
+  "backend": "simulator_mps",
+  "state": {
+    "status": "Completed",
+    "reason": "",
+    "reasonCode": null
+  },
+  "status": "Completed",
+  "params": {
+    "circuits": [
+      "OPENQASM 2.0;\ninclude \"qelib1.inc\";\nqreg q[3];\ncreg c[3];\nh q[0];\nh q[1];\nh q[2];\nrx(pi/2) q[0];\nrx(pi/2) q[2];\nrx(pi/2) q[1];\ncx q[0], q[1];\ncx q[1], q[2];\nrx(pi/2) q[0];\nrx(pi/2) q[2];\nrx(pi/2) q[1];\nmeasure q[0] -> c[0];\nmeasure q[1] -> c[1];\nmeasure q[2] -> c[2];\n"
+    ],
+    "run_options": {
+      "shots": 1000
+    }
+  },
+  "program": {
+    "id": "sampler"
+  },
+  "created": "2024-04-06T12:38:27.251Z",
+  "runtime": "",
+  "cost": 3600,
+  "tags": [
+    "composer-info:composer:true",
+    "composer-info:code-id:f910f703c90b9e3dae75915536cacaf13fa39b0ad803b408dd30f9184f395f1f",
+    "composer-info:code-version-id:66111cd68980847d9d629d7e"
+  ],
+  "session_id": null
+}
